@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
 
 
   // coonecting to the server
-  const response = await fetch('https://codex-ai-v9q6.onrender.com', {
+  const response = await fetch('https://codex-ai-v9q6.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
